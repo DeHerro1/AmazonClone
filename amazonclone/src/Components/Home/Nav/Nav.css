@@ -1,0 +1,18 @@
+.home_nav {
+    background-color: #131921;
+    color: white;
+    height: 40px;
+}
+.home_ul {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.home_li {
+    list-style: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.home_li:hover {
+   border-bottom: 2px solid white;
+}

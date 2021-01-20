@@ -1,0 +1,36 @@
+.game {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    border-bottom: 1px solid black;
+}
+.game_img {
+    width: 40%;
+    margin: 20px;
+}
+.pad {
+    width: 100%;
+}
+.game_details {
+    width: 60%;
+    margin: 0 auto;
+}
+.rating {
+    display: flex;
+    margin: 5px;
+}
+.price > span {
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
+.price {
+    font-size: 30px;
+}
+@media (min-width: 900px) {
+    .pad {
+        height: 30vh;
+        width: 60%;
+    }
+}

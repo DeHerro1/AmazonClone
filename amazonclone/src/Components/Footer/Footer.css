@@ -1,0 +1,17 @@
+.footer {
+    background: #37404d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footer_div {
+    margin: 20px;
+}
+.footer_div > p {
+    margin-top: 5px;
+    cursor: pointer;
+}
+.footer_div > p:hover {
+    text-decoration: underline;
+}

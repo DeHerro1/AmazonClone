@@ -1,0 +1,14 @@
+.subtotal {
+    margin: 20px;
+}
+.totalBtn {
+    background-color: orange;
+}
+.total_price {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.total_number {
+    margin-bottom: 20px;
+    font-size: 20px;
+}

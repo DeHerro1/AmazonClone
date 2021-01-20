@@ -1,0 +1,54 @@
+.signIn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.signIn_header {
+    margin: 10px 0 0 10px;
+}
+.signIn_logo {
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+}
+.signIn_form {
+    display: inherit;
+    flex-direction: inherit;
+    margin-top: 40px;
+    border: 1px solid black;
+    min-height: 50vh;
+}
+.signIn_button {
+    width: 90%;
+    margin: 40px auto;
+    background: linear-gradient(to bottom, rgb(243, 212, 125) 20%, orange);
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.verified {
+    color: red;
+    margin: 0 auto;
+}
+.signIn_input {
+    width: 90%;
+    margin: 20px auto;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.signIn_aggrement {
+    margin-left: 10px;
+}
+.signIn_paper {
+    color: blue;
+}
+@media (min-width: 800px) {
+    .signIn {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,15 @@
+.categories {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid: 0;
+    grid-template-columns: repeat(2, 1fr);
+    z-index: 100;
+    background: rgb(209, 209, 209);
+}
+
+@media (min-width: 800px) {
+    .categories {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

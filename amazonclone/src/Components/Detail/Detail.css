@@ -1,0 +1,30 @@
+.item {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+.game_details {
+    padding-left: 10px;
+    max-width: 50%;
+}
+
+.item_details {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    border-bottom: none;
+}
+.addToCartBtn {
+    background: rgb(245, 167, 41);
+    color: white;
+    width: 20%;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+}

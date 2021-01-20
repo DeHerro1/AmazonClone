@@ -1,0 +1,22 @@
+.checkoutProduct {
+    margin-top: 20px;
+    display: flex;
+}
+.checkoutImg {
+    object-fit: contain;
+    width: 50%;
+    height: 180px;
+}
+.checkoutProduct_info {
+    padding-left: 20px;
+}
+.checkoutProduct_info > button {
+    background-color: orange;
+
+}
+.checkoutRating {
+    display: flex;
+}
+.removeFromBasket {
+    cursor: pointer;
+}
